@@ -27,7 +27,7 @@ codeunit 50104 "Telegram Helper"
 
         if Client.Post(Url, Content, Response) then begin
             if Response.IsSuccessStatusCode() then
-                Message('Message sent successfully!')
+                Message('Message sent successfully!!')
             else begin
                 Response.Content.ReadAs(Json);
                 Error('Error: %1 - %2', Response.HttpStatusCode, Json);
