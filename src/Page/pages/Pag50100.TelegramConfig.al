@@ -21,6 +21,7 @@ page 50102 "Telegram Config"
                 }
                 field("Message"; Rec."Last Message")
                 {
+                    Caption = 'Message';
                     ApplicationArea = All;
                 }
             }
